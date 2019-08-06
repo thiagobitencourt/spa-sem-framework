@@ -101,13 +101,13 @@ Agora, para ver o resultado final vamos implementar o arquivo _index.html_:
             <h3>Páginas</h3>
             <ul>
                 <li>
-                    <a href="/#/pagina-um">Pagina um</a>
+                    <a href="#/pagina-um">Pagina um</a>
                 </li>
                 <li>
-                    <a href="/#/pagina-dois">Página dois</a>
+                    <a href="#/pagina-dois">Página dois</a>
                 </li>
                 <li>
-                    <a href="/#/pagina-tres">Página tres</a>
+                    <a href="#/pagina-tres">Página tres</a>
                 </li>
             </ul>
         </nav>

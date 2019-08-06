@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "SPA moderno utilizando apenas Javascript puro e webpack",
   "main": "index.js",
+  "homepage": "https://thiagobitencourt.github.io/spa-sem-framework",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open",
     "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --git $(which git)"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.1",
